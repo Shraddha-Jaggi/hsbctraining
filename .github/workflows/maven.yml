@@ -9,10 +9,10 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ "main" ]
+  
   pull_request:
     branches: [ "main" ]
+    workflow_dispath:
     #for building pulling is done . and we should name the branch in which we have file
 
 jobs:
